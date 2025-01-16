@@ -1,0 +1,772 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7520 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/shaik/Downloads/Game1/Car Driving
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49797
+Successfully changed project path to: C:/Users/shaik/Downloads/Game1/Car Driving
+C:/Users/shaik/Downloads/Game1/Car Driving
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7276] Host "[IP] 192.168.27.243 [Port] 0 [Flags] 2 [Guid] 3022612604 [EditorId] 3022612604 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-M39DI34A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7276] Host "[IP] 192.168.27.243 [Port] 0 [Flags] 2 [Guid] 3022612604 [EditorId] 3022612604 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-M39DI34A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 21.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shaik/Downloads/Game1/Car Driving/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     3760 MB
+    Driver:   30.0.14046.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019463 seconds.
+- Loaded All Assemblies, in  0.811 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.684 seconds
+Domain Reload Profiling: 1492ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (279ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.505 seconds
+Refreshing native plugins compatible for Editor in 14.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.639 seconds
+Domain Reload Profiling: 3139ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (981ms)
+		LoadAssemblies (691ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (476ms)
+			TypeCache.Refresh (424ms)
+				TypeCache.ScanAssembly (390ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (1027ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3322 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (130.7 KB). Loaded Objects now: 3787.
+Memory consumption went from 136.4 MB to 136.3 MB.
+Total: 9.407800 ms (FindLiveObjects: 0.750000 ms CreateObjectMapping: 0.410700 ms MarkObjects: 7.993800 ms  DeleteObjects: 0.251100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 602.446382 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bench.fbx
+  artifactKey: Guid(cf40d53f9e94ac64ab229fb47e39e9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bench.fbx using Guid(cf40d53f9e94ac64ab229fb47e39e9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f43c0e3c9ef5c266978ed42582b7506') in 0.373161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/arch_gate.fbx
+  artifactKey: Guid(76da4391139e5474d81bec9246902557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/arch_gate.fbx using Guid(76da4391139e5474d81bec9246902557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b47d936a74d45def4f528edbfd3679e') in 0.086025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.768433 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bone_A.fbx
+  artifactKey: Guid(1fe372e170b0c8c469ab722ef57d0fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bone_A.fbx using Guid(1fe372e170b0c8c469ab722ef57d0fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e6db86c6fbeb1a21816e31bc5697df') in 0.058001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.527396 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bench_decorated.fbx
+  artifactKey: Guid(af8be66a6d64ca24f9f3e82b88f8cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bench_decorated.fbx using Guid(af8be66a6d64ca24f9f3e82b88f8cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2a886d8b9eb4dd81893b3d0ad0e726') in 0.071816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.439471 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bone_B.fbx
+  artifactKey: Guid(866628ebaee505245814912856a9828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bone_B.fbx using Guid(866628ebaee505245814912856a9828a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb899d916e2ffe1e92458a64955838d1') in 0.071232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.499124 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle.fbx
+  artifactKey: Guid(1de50bacd67b4474db7181bede9db06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle.fbx using Guid(1de50bacd67b4474db7181bede9db06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c07ea23d5e3e54d2fb6e79e6d67ea4') in 0.059953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.166785 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bone_C.fbx
+  artifactKey: Guid(e782a72dc48d53e4cac177f89c07c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/bone_C.fbx using Guid(e782a72dc48d53e4cac177f89c07c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a115759e2dff5077c9bd2f245705a3') in 0.058571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.423905 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle_thin.fbx
+  artifactKey: Guid(a5716949f43eb4244bc233a8628a6f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle_thin.fbx using Guid(a5716949f43eb4244bc233a8628a6f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1f48416aeeda659baebf7bb61a2425') in 0.049388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.910038 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle_melted.fbx
+  artifactKey: Guid(75193e52c4bbe8b4f829b03ca5cb4cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle_melted.fbx using Guid(75193e52c4bbe8b4f829b03ca5cb4cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18448f0439098202d69d954c657351c') in 0.055099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.387418 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/coffin.fbx
+  artifactKey: Guid(4147726fe24f5c64990c35980eb490f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/coffin.fbx using Guid(4147726fe24f5c64990c35980eb490f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4e4a183421092b31fb40d282da8c58') in 0.070407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.626891 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle_triple.fbx
+  artifactKey: Guid(a0ef346bd751153418fc110e6917006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/candle_triple.fbx using Guid(a0ef346bd751153418fc110e6917006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfc6725f768b653d443bc49913a3327') in 0.051909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.432784 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/coffin_decorated.fbx
+  artifactKey: Guid(f7365dee624426f49b8497afb1d2b3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/coffin_decorated.fbx using Guid(f7365dee624426f49b8497afb1d2b3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbfd21ecad862ebda5b0d368da8045d') in 0.055799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.992773 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/crypt.fbx
+  artifactKey: Guid(1d5552ee89eb5d4439117a08e3636c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/crypt.fbx using Guid(1d5552ee89eb5d4439117a08e3636c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2eed25220e0386cf2f8959e4a038f1') in 0.058067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.500117 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/fence.fbx
+  artifactKey: Guid(d6c7db340739d68499ae38be39d1c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/fence.fbx using Guid(d6c7db340739d68499ae38be39d1c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3a111e6ae1656a36e0441bbefe0415') in 0.060935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.069513 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/fence_broken.fbx
+  artifactKey: Guid(4c5f0f8a35e6c0741b33860884f99e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/fence_broken.fbx using Guid(4c5f0f8a35e6c0741b33860884f99e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd287ef3641a11ef5e37bda48a323860a') in 0.062265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.664600 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/lantern_hanging.fbx
+  artifactKey: Guid(45182c6324ce8aa42aaf111a5bd496f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/lantern_hanging.fbx using Guid(45182c6324ce8aa42aaf111a5bd496f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd59cbed55c5db4967714a4565a5326b') in 0.056695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.810930 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/floor_dirt_small.fbx
+  artifactKey: Guid(ff0741e6aa4528444a35479cfc4e90ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/floor_dirt_small.fbx using Guid(ff0741e6aa4528444a35479cfc4e90ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380cda873a2de20d610a15a35418bfc5') in 0.064112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.303458 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/grave_A_destroyed.fbx
+  artifactKey: Guid(0bda04ce1c8e3cd45919e33967b51c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/grave_A_destroyed.fbx using Guid(0bda04ce1c8e3cd45919e33967b51c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe4563c39c341849bcf7285be2f168a') in 0.059745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.418241 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/grave_A.fbx
+  artifactKey: Guid(7b3d68d1531a5e54088e9cf4fd3b5a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/grave_A.fbx using Guid(7b3d68d1531a5e54088e9cf4fd3b5a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd9c2684974c0b5cb5a6f2fae93048e') in 0.146422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.570486 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/grave_B.fbx
+  artifactKey: Guid(ab657715ee5874d42992939ed5ca4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/grave_B.fbx using Guid(ab657715ee5874d42992939ed5ca4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e781b164cc23b93d8b3048847781ea9') in 0.255180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.771478 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/gravemarker_A.fbx
+  artifactKey: Guid(f1b9b186501178442a039b01e61f89da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/gravemarker_A.fbx using Guid(f1b9b186501178442a039b01e61f89da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f045b368251a471f59d4be43e3c963') in 0.150096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.040846 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/gravemarker_B.fbx
+  artifactKey: Guid(66191c59aaeb8c247afd86bfb1cfdcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/gravemarker_B.fbx using Guid(66191c59aaeb8c247afd86bfb1cfdcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d79b25adbb29e1d06f2ac88de61689c') in 0.292301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.579441 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/gravestone.fbx
+  artifactKey: Guid(f29ac8c2635695644b2ef9b21e194612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/gravestone.fbx using Guid(f29ac8c2635695644b2ef9b21e194612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2e878a4623b48810c468c04f221ece') in 0.096038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.290318 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/halloweenbits_texture.png
+  artifactKey: Guid(40b5ee43de4c7e843bedda39e01705b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/halloweenbits_texture.png using Guid(40b5ee43de4c7e843bedda39e01705b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d2c33d7d271f7234e7af583247c33a') in 0.624730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.121882 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/path_A.fbx
+  artifactKey: Guid(80dc4bd15b8ab034cb2fec2f1ef7adb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/path_A.fbx using Guid(80dc4bd15b8ab034cb2fec2f1ef7adb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e8f04f79cca102329b765f29cf2b48') in 0.082725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.286210 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/lantern_standing.fbx
+  artifactKey: Guid(09718d0ff88f78c4da50ab3c079be4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/lantern_standing.fbx using Guid(09718d0ff88f78c4da50ab3c079be4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aa915f56693ff37596e05ec7584f4a') in 0.061684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.346284 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/plaque_candles.fbx
+  artifactKey: Guid(182d92b8aecff0c40a00c56205fdb734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/plaque_candles.fbx using Guid(182d92b8aecff0c40a00c56205fdb734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bba79bcbdb7adaa67adc22873232a7b') in 0.065185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.830570 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/post_skull.fbx
+  artifactKey: Guid(57f84bd85b80ea046ac7e7c7c18cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/post_skull.fbx using Guid(57f84bd85b80ea046ac7e7c7c18cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81781fb58986b006adf1b07b72d1a26') in 0.072185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.556691 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_orange.fbx
+  artifactKey: Guid(3e98847398fb6f2418ccb025a54dfec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_orange.fbx using Guid(3e98847398fb6f2418ccb025a54dfec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1339a78575069f622e35f0e787aa48b6') in 0.060436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.719657 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_orange_jackolantern.fbx
+  artifactKey: Guid(17b5af3281c1bca4eb6b4b93a587500f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_orange_jackolantern.fbx using Guid(17b5af3281c1bca4eb6b4b93a587500f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f51ed5bd67a8972e10b6a613ac0547') in 0.056413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.203445 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_orange_small.fbx
+  artifactKey: Guid(1fe4d8c2396f1bd4cb801ee6390072f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_orange_small.fbx using Guid(1fe4d8c2396f1bd4cb801ee6390072f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0153b4571f6a59095c7a62f62970db81') in 0.055501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.942966 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_yellow.fbx
+  artifactKey: Guid(063d3aaad7c307f4681d09f640fbe656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_yellow.fbx using Guid(063d3aaad7c307f4681d09f640fbe656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fb5dd549225ddcc3e8b5b988da3537') in 0.060280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.037718 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_yellow_jackolantern.fbx
+  artifactKey: Guid(2b904b384d027b84ba046b0f88ed3390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_yellow_jackolantern.fbx using Guid(2b904b384d027b84ba046b0f88ed3390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9823a777f51deeb1c59f40ab6d2fed49') in 0.057266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.421021 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_yellow_small.fbx
+  artifactKey: Guid(683d2d1f055683e4abd06944c8a66575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/pumpkin_yellow_small.fbx using Guid(683d2d1f055683e4abd06944c8a66575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b9f68b20167ddbd54f12bc10c17321') in 0.060072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.391911 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/ribcage.fbx
+  artifactKey: Guid(0448b99764e02aa4ca4e5069c65543a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/ribcage.fbx using Guid(0448b99764e02aa4ca4e5069c65543a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91395227c2dc91613bf9121a8bb75e9') in 0.059338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.131818 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/shrine.fbx
+  artifactKey: Guid(41c1156b7216e7f40bea3cbda213360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/shrine.fbx using Guid(41c1156b7216e7f40bea3cbda213360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34295e9e33ee20453478d36611381590') in 0.053762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.197166 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/skull.fbx
+  artifactKey: Guid(9cd1ed116a550df47b13ef1d5b06911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/skull.fbx using Guid(9cd1ed116a550df47b13ef1d5b06911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d43ce48890fc27c1bc56ce5695e9df') in 0.062079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.296063 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/skull_candle.fbx
+  artifactKey: Guid(4e579105c56757b42b6513a9271c4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/skull_candle.fbx using Guid(4e579105c56757b42b6513a9271c4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207c496855ae9cfc49029497ea25790d') in 0.065823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.832177 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/tree_dead_large.fbx
+  artifactKey: Guid(fde7540c4e1e57c4ab66b2f659553e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/tree_dead_large.fbx using Guid(fde7540c4e1e57c4ab66b2f659553e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9738c36a2d9c580ff4185e31d9a7341') in 0.067853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.098281 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/tree_dead_large_decorated.fbx
+  artifactKey: Guid(12da15b863ebab44196aa4000da14c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/tree_dead_large_decorated.fbx using Guid(12da15b863ebab44196aa4000da14c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1077b61bffb6be73d7aa768e383afc') in 0.055375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.729731 seconds.
+  path: Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/tree_dead_medium.fbx
+  artifactKey: Guid(1881bd204db9c8f469712669522b8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_HalloweenBits_1.0_FREE/Assets/fbx(unity)/tree_dead_medium.fbx using Guid(1881bd204db9c8f469712669522b8e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e47e2e3cf527976499f44f601116be6') in 0.058005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.105 seconds
+Refreshing native plugins compatible for Editor in 8.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 33.062 seconds
+Domain Reload Profiling: 40163ms
+	BeginReloadAssembly (952ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (397ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (5975ms)
+		LoadAssemblies (6241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (33063ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1074ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (838ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 10.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (102.5 KB). Loaded Objects now: 3847.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 11.063000 ms (FindLiveObjects: 0.621800 ms CreateObjectMapping: 0.615900 ms MarkObjects: 9.550200 ms  DeleteObjects: 0.272000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.201 seconds
+Refreshing native plugins compatible for Editor in 9.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.483 seconds
+Domain Reload Profiling: 3678ms
+	BeginReloadAssembly (413ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (580ms)
+		LoadAssemblies (804ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1170ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (937ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 8.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (102.5 KB). Loaded Objects now: 3862.
+Memory consumption went from 138.8 MB to 138.7 MB.
+Total: 8.738700 ms (FindLiveObjects: 0.590500 ms CreateObjectMapping: 0.196600 ms MarkObjects: 7.751000 ms  DeleteObjects: 0.198000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.011 seconds
+Refreshing native plugins compatible for Editor in 7.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.848 seconds
+Domain Reload Profiling: 5856ms
+	BeginReloadAssembly (653ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (198ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1161ms)
+		LoadAssemblies (1438ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (3849ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (945ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (102.4 KB). Loaded Objects now: 3877.
+Memory consumption went from 140.7 MB to 140.6 MB.
+Total: 8.763700 ms (FindLiveObjects: 0.942100 ms CreateObjectMapping: 0.245900 ms MarkObjects: 7.198800 ms  DeleteObjects: 0.374800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.925 seconds
+Refreshing native plugins compatible for Editor in 8.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.284 seconds
+Domain Reload Profiling: 3204ms
+	BeginReloadAssembly (312ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (612ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2285ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1077ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (849ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 7.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (102.4 KB). Loaded Objects now: 3892.
+Memory consumption went from 142.7 MB to 142.6 MB.
+Total: 5.374400 ms (FindLiveObjects: 0.702200 ms CreateObjectMapping: 0.206400 ms MarkObjects: 4.341600 ms  DeleteObjects: 0.122500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 885.410440 seconds.
+  path: Assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/fbx (unity)/building_A.fbx
+  artifactKey: Guid(db6c74cb08820514ca8040b674c65d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit_City_Builder_Bits_1.0_FREE/Assets/fbx (unity)/building_A.fbx using Guid(db6c74cb08820514ca8040b674c65d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591e8fc7d9398f03cd07f5c83297dd83') in 0.275176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
